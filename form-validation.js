@@ -31,6 +31,7 @@ function validateUsername()
   }
   else
   {
+    document.getElementById("usernameError").innerHTML=" ";
     document.getElementById("usernameGroup").classList.remove("has-error");
     document.getElementById("usernameGroup").classList.add("has-success");
   }
@@ -72,6 +73,7 @@ function validatePassword()
   }
   else
   {
+    document.getElementById("passwordError").innerHTML=" ";
     document.getElementById("passwordGroup").classList.remove("has-error");
     document.getElementById("passwordGroup").classList.add("has-success");
   }
